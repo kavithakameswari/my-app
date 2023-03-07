@@ -1,0 +1,34 @@
+mvn -f pom.xml clean package
+ sudo apt-get update
+    3  java
+    4  sudo apt install openjdk-11-jre-headless
+    5  clear
+    6  mvn
+    7  sudo apt install maven
+    8  clear
+    9  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+   10  ls -lrt
+   11  sudo apt-get install tree
+   12  clear
+   13  tree my-app/
+   14  cd my-app/
+   15  ls -lrt
+   16  mvn -f pom.xml clean package
+   17  vi pom.xml
+   18  mvn -f pom.xml clean package
+   19  ls -lrt
+   20  rm -rf target
+   21  ls -lrt
+   22  git init
+   23  git config --global user.name "kavitha"
+   24  git config --global user.email "kavi17jan@gmail.com"
+   25  git status
+   26  git add .
+   27  git commit -m "updated files"
+   28  git remote add origin git@github.com:kavithakameswari/my-app.git
+   29  git push
+   30  git branch -M main
+   31  git push origin main
+   32  ssh-keygen
+   33  cat /home/ubuntu/.ssh/id_rsa.pub
+   34  git push origin main
